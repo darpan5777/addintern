@@ -1,0 +1,33 @@
+// Colors
+$gray-200:#e3e3e3;
+$gray-400:#959ba8;
+$gray-500:#747474;
+
+$light:#f5f6fa;
+
+
+// Theme colors
+$primary:   #1573dd;
+$secondary: #ebf1fc;
+
+$danger:    #e04141;
+
+$warning:   #e5b42f;
+$success:   #40eb40;
+$info-light:      #d4e6ee;
+
+$primary-light: lighten($primary,10%);
+
+// Theme Map
+$theme-colors: ();
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "danger": $danger,
+    "warning": $warning,
+    "success": $success,
+    "info-light":$info-light,
+    "gray-200": $gray-200,
+    "primary-light": $primary-light,
+);
+

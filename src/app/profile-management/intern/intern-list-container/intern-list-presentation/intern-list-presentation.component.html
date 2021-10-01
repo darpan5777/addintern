@@ -1,0 +1,40 @@
+<p>intern-list-presentation works!</p>
+
+<div class="container-fluid">
+    <div class="col align-items-start">
+      <div class="col">
+        <h1> <span class="text-success">Intern Details</span></h1>
+      </div>
+ 
+     
+  
+    </div>
+   
+    <div class="form-group row">
+      
+        <div class="col-sm-3">
+     
+  <table class="table">
+    <thead class="thead-dark">
+      
+      <!-- list data -->
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">domain</th>
+        <th scope="col">subdomain</th>
+      </tr>
+    </thead>
+     <tbody>                                      
+
+        <tr *ngFor="let internlist of internList">
+        <td>{{internlist.firstName  }} {{internlist.middleName}} {{internlist.lastName}}</td>
+        <td>{{internlist.email}}</td> 
+        <td>{{internlist.domain}}</td>
+        <td>{{internlist.subDomain}}</td>
+   
+        <td class="text-center">
+      <tr>
+       
+         </tbody>
+  </table>

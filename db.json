@@ -1,0 +1,44 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "intern": [
+    {
+      "id": 1,
+      "firstName": "darpan",
+      "middleName":"satiskumar",
+      "lastName": "parmar",
+      "contactNo":"9687177725",
+      "email":"darpan6777@gmail.com",
+      "domain":"Technolodgy",
+     "subDomain":"Angular"
+  },
+  {
+    "id": 1,
+    "firstName": "Bhavik",
+    "middleName":"Chandrakant",
+    "lastName": "Gajdhar",
+    "contactNo":"9699456666",
+    "email":"bhavik777@gmail.com",
+    "domain":"Technolodgy",
+   "subDomain":"Angular"
+},
+{
+  "id": 1,
+  "firstName": "Ankit",
+  "middleName":"",
+  "lastName": "Prajapati",
+  "contactNo":"9687145574",
+  "email":"ankit6777@gmail.com",
+  "domain":"Technolodgy",
+ "subDomain":"Angular"
+}
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
